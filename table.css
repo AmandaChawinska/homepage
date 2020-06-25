@@ -1,0 +1,30 @@
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table__cell {
+    border: 1px solid #ccc;
+    padding: 18px;
+    text-align: center;
+  }
+  
+  .table--header {
+    background-color: rgba(245, 229, 4, 0.719);
+    color: black;
+  }
+  
+  .table__row:hover {
+    background-color: rgba(67, 201, 67, 0.678);
+  }
+  
+  .overflow {
+    overflow-x: auto;
+  }
+  .caption {
+    font-size: 50px;
+    text-shadow: pink 2px;
+    margin: 10px;
+    text-shadow: 1px 2px 5px red;
+  }  

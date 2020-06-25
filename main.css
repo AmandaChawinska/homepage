@@ -1,0 +1,9 @@
+.main {
+    background-color: rgba(204, 204, 204, 0.411);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+ 
+  .main__header {
+    text-align: center;
+  }
