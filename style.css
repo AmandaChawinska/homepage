@@ -16,7 +16,7 @@ html {
   margin: 0 auto;
 }
 
-.image, .image__pic {
+.image {
   width: 100%;
   border-radius: 20px;
   margin: 50px 0;
@@ -24,4 +24,8 @@ html {
 
 .footer {
   text-align: center;
+}
+
+.list {
+  list-style: "\1F4AA";
 }
