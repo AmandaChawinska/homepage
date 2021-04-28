@@ -1,13 +1,14 @@
-.advertisement, .like {
+.button {
     background-color: rgba(238, 5, 5, 0.63);
     height: auto;
     color: white;
-    margin: 50px 80px 50px 150px;
+    margin: 20px;
     padding: 20px;
     cursor: pointer;
     font-size: unset;
+    border-radius: 20px;
   }
   
-  .advertisement:hover, .like:hover {
+  .button:hover{
     background-color: rgb(29, 175, 29);
   }
