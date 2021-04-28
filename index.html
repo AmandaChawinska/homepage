@@ -15,7 +15,7 @@
     <link href="header__nav.css" rel="stylesheet">
     <link href="table.css" rel="stylesheet">
     <link href="button.css" rel="stylesheet">
-    
+
     <script defer src="js/script.js"></script>
 </head>
 
@@ -33,9 +33,11 @@
 
                     </li>
                     <li class="header__listItem">
-                        <a href="#Ciekawostki" class="header__link">Ciekawostki</a></li>
+                        <a href="#Ciekawostki" class="header__link">Ciekawostki</a>
+                    </li>
                     <li class="header__listItem">
-                        <a href="#Przykladowy-trening" class="header__link">Przykładowy trening</a></li>
+                        <a href="#Przykladowy-trening" class="header__link">Przykładowy trening</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -51,7 +53,9 @@
             </section>
 
             <article id="Artykul">
-                <h3 class="main__header">Ćwiczenia kobiet i mężczyzn</h3> Na korzyść treningu kobiet przemawia fakt, że
+                <hr>
+                <h3 class="main__header">Ćwiczenia kobiet i mężczyzn</h3>
+                Na korzyść treningu kobiet przemawia fakt, że
                 gdy pokonają
                 początkowe
                 opory, mają zwykle bardzo rozsądne podejście do ćwiczeń. Ich trening zawiera zazwyczaj elementy treningu
@@ -75,17 +79,17 @@
                 należy
                 zapominać, że wiele kobiet zajmuje się dziećmi i ma na głowie cały dom.
             </article>
-            <br><br>
+            <hr>
             <section id="Ciekawostki">
                 <h3 class="main__header">Oto powody dla których kobiety powinny podnosić ciężary:</h3>
-                <ol>
-                    <li>
+                <ul class="list">
+                    <li class="listItem">
                         Efektywne spalanie tłuszczu
                         Po ciężkim treningu siłowym organizm spala kalorie nawet kilka godzin po zakończonym wysiłku. W
                         przypadku
                         wykonania dodatkowo treningu cardio po treningu siłowym efekty będą jeszcze lepsze.</li>
 
-                    <li>
+                    <li class="listItem">
                         Więcej mięśni – większe spalanie kalorii
                         Ćwicząc z ciężarem wypracowujesz systematyczny przyrost siły i masy mięśniowej. Osoby mające
                         więcej
@@ -96,7 +100,7 @@
                         tkanki
                         tłuszczowej spala 4 kcal dziennie.</li>
 
-                    <li>
+                    <li class="listItem">
                         kształty
                         Panie ze względu na inne stężenie hormonów naturalnie nie są w stanie osiągnąć tak dużych mięśni
                         jak
@@ -104,17 +108,17 @@
                         zgrabną
                         i
                         szczupłą sylwetkę.</li>
-                    <li>
+                    <li class="listItem">
                         Więcej energii
                         Po treningu znacznie skuteczniej się rozbudzimy, dostając nowych sił, aniżeli po kawie.</li>
 
-                    <li>
+                    <li class="listItem">
                         „100 lat, 100 lat!”
                         Badania z Journal of Strength Conditioning wskazują, że ćwiczenia z ciężarem redukują poziom
                         trójglicerydów
                         we krwi, zapobiegają wysokiemu ciśnieniu, otyłości, stabilizują poziom glukozy we krwi.</li>
 
-                    <li>
+                    <li class="listItem">
                         kości
                         Wraz z upływem lat jesteś narażona na utratę tkanki mięśniowej, a także kostnej. Kobiety po
                         menopauzie,
@@ -128,18 +132,19 @@
                         kręgosłupa o
                         9%. Im wcześniej zaczniesz ćwiczyć, tym mniejsze szanse, że osteoporoza dotknie Ciebie.</li>
 
-                    <li>
+                    <li class="listItem">
                         Poprawa nastroju i odprężenie
                         Regularne ćwiczenia siłowe pozwalają na lepsze radzenie sobie z trudnymi sytuacjami w życiu
                         codziennych
                         oraz
                         poprawiają nastrój.</li>
-                </ol>
+                </ul>
             </section>
 
 
         </main>
         <div class="overflow">
+            <hr>
             <table class="table">
                 <caption id="Przykladowy-trening" class="caption">Przykładowy trening </caption>
                 <tr class="table__row">
@@ -180,15 +185,16 @@
 
             </table>
         </div>
-        <br>
-        <button class="advertisement">Schowaj reklamę</button>
-        <button class="like">Daj lajka</button>
-        <br><br>
-        <aside>
-            <img class="image__pic"
-                src="https://img.freepik.com/darmowe-wektory/silownia-fitness-klub-kwadratowy-szablon-transparent-lub-reklama-post-instagram_57082-150.jpg?size=626&ext=jpg"
-                alt="reklama"></a>
-        </aside>
+        <div>
+            <button class="button js-advertisement">Schowaj reklamę</button>
+            <button class="button js-like">Daj lajka 👍</button>
+            <aside>
+                <img class="image js-image"
+                    src="https://img.freepik.com/darmowe-wektory/silownia-fitness-klub-kwadratowy-szablon-transparent-lub-reklama-post-instagram_57082-150.jpg?size=626&ext=jpg"
+                    alt="reklama"></a>
+            </aside>
+        </div>
+        <!-- jakiś komentarz -->
     </div>
     <footer class="footer">Wszelkie prawa zastrzeżone &copy;</footer>
 </body>
