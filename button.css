@@ -2,7 +2,7 @@
     background-color: rgba(238, 5, 5, 0.63);
     height: auto;
     color: white;
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
     cursor: pointer;
     font-size: unset;
@@ -11,4 +11,12 @@
   
   .button:hover{
     background-color: rgb(29, 175, 29);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flexItem {
+    flex: 1 1 auto;
   }
