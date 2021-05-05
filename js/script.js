@@ -11,30 +11,22 @@
 
     };
 
+    const changeButtonLike = () => {
+        const like = document.querySelector(".js-like");
+        like.innerText === "Daj lajka 👍" ? like.innerText = "Dziękuje" : like.innerText = "Daj lajka 👍";
+
+    };
+
+
     const init = () => {
+        const like = document.querySelector(".js-like");
+        like.addEventListener("click", changeButtonLike);
+
         const advertisement = document.querySelector(".js-advertisement");
-        advertisement.addEventListener("click", remove)
+        advertisement.addEventListener("click", remove);
         welcome();
     };
 
     init();
-
-
-    {
-        const changebuttonlike = () => {
-            if (like.innerText === "Daj lajka 👍") {
-                like.innerText = "Dziękuje";
-            } else {
-                like.innerText = "Daj lajka 👍";
-            }
-        };
-
-        
-
-        const like = document.querySelector(".js-like");
-        like.addEventListener("click", changebuttonlike);
-
-    }
-
 
 }
